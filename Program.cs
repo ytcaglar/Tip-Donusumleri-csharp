@@ -14,7 +14,7 @@ namespace tipdonusumleri
             sbyte b = 30;
             short c = 10;
                         
-            int d = a+b+c;
+            int d = a+b+c; // toplamı int olarak atanabiliyor.
          
             Console.WriteLine("d: "+d);
 
@@ -34,8 +34,10 @@ namespace tipdonusumleri
 
             Console.WriteLine("**** Explicit Concersion ****");
 
+            // String'ten byte'a dönüşüm olmaz. 
+
             int x = 4;
-            byte y = (byte)x;
+            byte y = (byte)x; // byte eklenmelidir.
             Console.WriteLine("y:"+y);
 
             int z = 100;
